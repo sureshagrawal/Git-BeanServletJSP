@@ -22,7 +22,7 @@ public class StudentServlet extends HttpServlet {
 
         req.setAttribute("studentBean",student);
 
-        req.getRequestDispatcher("display.jsp").forward(req,resp);
+        req.getRequestDispatcher("display1.jsp").forward(req,resp);
 
     }
 }
